@@ -1,0 +1,102 @@
+.ng-hide {
+    display: none;
+}
+.compliance .item__link {
+    display: block;
+    padding: 26px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.compliance .list__item--sel .link__counter {
+    color: #ffffff;
+    background: #303237;
+}
+.compliance .link__counter {
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7d8186;
+    border: 1px solid #303237;
+    border-radius: 15px;
+}
+
+.compliance .link__title {
+    margin-left: 40px;
+    line-height: 15px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.compliance *, .compliance *::before, .compliance *::after {
+    box-sizing: inherit;
+}
+.compliance .link__status {
+    margin-left: 40px;
+    line-height: 15px;
+    font-size: 11px;
+    color: #7d8186;
+}
+.compliance .field-group__line + .field-group__line {
+    margin-top: 30px;
+}
+.compliance .field-group__line {
+    margin-left: 240px;
+}
+.compliance .control--md {
+    width: 280px;
+}
+.compliance .control {
+    position: relative;
+    float: left;
+}
+.compliance .control__input.country-prefix {
+    width: 33px;
+    padding: 5px;
+}
+.compliance .control__input, .compliance .control__select, .compliance .control__textarea {
+    width: 100%;
+    height: 40px;
+    padding: 8px 32px 8px 16px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #d8dade;
+    border-radius: 3px;
+}
+.compliance .control__input.vat {
+    width: 225px;
+    margin-left: 10px;
+}
+.compliance .control--sm {
+    width: 130px;
+}
+.compliance .control {
+    position: relative;
+    float: left;
+}
+.compliance .control__input, .compliance .control__select, .compliance .control__textarea {
+    width: 100%;
+    height: 40px;
+    padding: 8px 32px 8px 16px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #d8dade;
+    border-radius: 3px;
+}
+.compliance .control--sm + .control--sm {
+    margin-left: 20px;
+}
+.compliance .control--sm {
+    width: 130px;
+}
+.compliance .control {
+    position: relative;
+    float: left;
+}

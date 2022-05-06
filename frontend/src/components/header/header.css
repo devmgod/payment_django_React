@@ -1,0 +1,233 @@
+.header {
+    height: 70px;
+    background: #27292e;
+}
+
+
+.header a.logo {
+    display: block;
+    height: 50px;
+    /* background: url(/images/logo_sprite.png) no-repeat 0 0; */
+    width: 253px;
+    text-indent: -2000em;
+    padding: 0!important;
+    border-right: 1px solid #000;
+}
+.header a.logo {
+    position: relative;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    float: left;
+    width: 150px;
+    height: 20px;
+    text-indent: 0;
+    background: url(../assets/logo-header-pw.svg);
+    background-size: 100% 100%;
+    border: 0;
+}
+
+.header .switch {
+    float: left;
+    padding: 4px;
+    margin: 22px 0 0 100px;
+    border-radius: 3px;
+    background: #1b1d20;
+}
+
+.header .switch .business, .header .switch .personal {
+    float: left;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header .switch .business.sel, .header .switch .personal.sel {
+    background: #ffd400;
+}
+
+.header .switch .business {
+    margin: 0 0 0 2px;
+}
+
+.header .switch .business, .header .switch .personal {
+    float: left;
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header .switch .business.sel a, .header .switch .personal.sel a {
+    color: #1b1d20;
+}
+
+.header .user {
+    float: right;
+    margin: 18px 0 0;
+}
+.header .user * {
+    float: left;
+}
+
+.header .user .notifications .counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 8px;
+    color: #fff;
+    background: #e4451a;
+    cursor: pointer;
+}
+div, tr {
+    color: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+.header .user .notifications {
+    position: relative;
+    margin: 8px 0 0 12px;
+    cursor: pointer;
+}
+.header .user .notifications+.notifications-dropdown {
+    right: 155px;
+}
+.header .user .notifications+.notifications-dropdown {
+    position: absolute;
+    top: 62px;
+    right: 75px;
+    width: 262px;
+    border: 1px solid #313439;
+    border-radius: 3px;
+    background: #1f2124;
+    z-index: 100;
+    box-shadow: 0 0 10px #000;
+}
+.header .user .notifications+.notifications-dropdown .not-header {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #fff;
+    background: #313338;
+}
+
+.header .user .notifications+.notifications-dropdown .notification:last-child {
+    border: none;
+}
+.header .user .notifications+.notifications-dropdown .notification {
+    float: left;
+    width: 100%;
+    padding: 4px 0;
+    border-bottom: 1px solid #313338;
+}
+.header .user .notifications+.notifications-dropdown .notification .col-left {
+    float: left;
+    width: 26px;
+}
+.header .user .notifications+.notifications-dropdown .notification .col-right {
+    float: left;
+    width: 234px;
+    color: #6a6c70;
+}
+.header .user .notifications+.notifications-dropdown .notification .col-right div {
+    color: #6a6c70;
+}
+.header .user .mark_as_read {
+    margin-right: 10px;
+    font-size: 11px;
+    float: right;
+    text-decoration: underline;
+}
+.header .user .account {
+    position: relative;
+    margin: 0 30px 0 24px;
+    cursor: pointer;
+}
+.header .switch .business a, .header .switch .personal a {
+    color: #62666f;
+}
+.header .user .account .photo {
+    margin: 0 16px 0 12px;
+}
+.header .user .account .drop {
+    position: static;
+    padding: 0;
+    margin: 16px 0 0;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+.header .user .account .name {
+    margin: 8px 0 0;
+    font-size: 12px;
+    color: #c7c5c5;
+}
+.header .user {
+    float: right;
+    margin: 18px 0 0;
+}
+.header .help {
+    float: right;
+    margin: 24px 10px 0 0;
+}
+.header .user .account+.account-dropdown {
+    position: absolute;
+    top: 62px;
+    right: 6px;
+    width: 162px;
+    padding: 20px 10px;
+    border: 1px solid #313439;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #000;
+    background: #2f3135;
+    z-index: 100;
+}
+.header .user .account+.account-dropdown a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 37px;
+    line-height: 37px;
+}
+.header .user .account+.account-dropdown a img {
+    margin: 11px 14px 0 6px;
+}
+.header .user .account+.account-dropdown a span {
+    font-size: 12px;
+    color: #fff;
+}
+.header .help a {
+    font-size: 12px;
+    color: #c7c5c5;
+}
+.nav_left .col-left .feed.sel:before, .nav_left .col-left .feed:hover:before {
+    background-position: -20px -2px;
+}
+.nav_left .col-left .analytics:before {
+    background-position: -74px -2px;
+}
+
+.nav_left .col-left .payout:before {
+    background-position: -110px -2px;
+}
+.nav_left .col-left .marketing:before {
+    background-position: -182px -2px;
+}
+.nav_left .col-left .resolution-center:before {
+    background-position: -254px -2px;
+}
+.nav_left .col-left ul li a:hover {
+    opacity: 1;
+    color: #ffd400;
+}

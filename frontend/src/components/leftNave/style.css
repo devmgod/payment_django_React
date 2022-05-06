@@ -1,0 +1,67 @@
+.menu_app, .nav_left {
+    width: 250px;
+    position: absolute;
+    padding: 0;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    background: #303237;
+}
+.nav_left .col-left {
+    float: left;
+    width: 212px;
+    margin: 32px 20px;
+}
+.nav_left .col-left ul {
+    float: left;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav_left .col-left .applications:before {
+    background-position: -146px -2px;
+}
+.nav_left .col-left>ul>li>a:before {
+    content: "";
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin: 0 24px 0 0;
+    background: url(../assets/merchant-area-nav-sprite.png) no-repeat;
+}
+.nav_left .col-left ul li ul {
+    margin: 24px 0 0 60px;
+}
+.nav_left .col-left ul {
+    float: left;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.nav_left .col-left ul li {
+    float: left;
+    width: 100%;
+    margin: 0 0 32px;
+    line-height: 16px;
+}
+.nav_left .col-left ul li a {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+}
+.nav_left .col-left ul li ul.closed {
+    display: none;
+}
+.nav_left .col-left ul li .drop:after {
+    content: "";
+    float: right;
+    display: inline-block;
+    width: 5px;
+    height: 10px;
+    margin: 4px 0 0 4px;
+    /* background: url(../assets/drop.png) no-repeat; */
+}

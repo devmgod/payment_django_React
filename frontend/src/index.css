@@ -1,0 +1,51 @@
+body {
+  position: absolute;
+  box-sizing: border-box;
+  min-width: 100%;
+  min-height: 100%;
+  font-family: proxima_novaregular,sans-serif;
+  font-size: 14px;
+  /* background: #fff url(/images/users/v5/bg.png) repeat-y; */
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'proxima_novaregular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('proxima_novaregular'), url(./components/assets/FontsFree-Net-ProximaNova-Regular.ttf) format('truetype');
+}
+
+.fade {
+  position: fixed;
+  z-index: 149;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  opacity: .6;
+  background-color: #000;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a, div, tr {
+  font-family: proxima_novaregular;
+}
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:-webkit-any-link:active {
+  color: -webkit-activelink;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}

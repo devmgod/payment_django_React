@@ -1,0 +1,294 @@
+.compliance__nav {
+    margin: 0 0 58px;
+    border-bottom: 1px solid #d8dade;
+}
+
+.nav__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.list__item--sel {
+    border-bottom: 3px solid #f5c343;
+}
+
+.nav__list:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.compliance .field-group__line::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.list__item+.list__item {
+    margin-left: 20px;
+}
+
+.list__item:hover {
+    border-bottom: 3px solid #d8dade;
+}
+
+.list__item {
+    float: left;
+    margin-bottom: -1px;
+}
+
+.item__link {
+    display: block;
+    padding: 26px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div,
+tr {
+    color: inherit;
+    font-size: inherit;
+    margin: 0;
+}
+
+.link__title--no-counter {
+    margin-left: 0;
+}
+
+.compliance .control--md+.control--md {
+    margin-left: 40px;
+}
+
+.link__title {
+    line-height: 15px;
+    font-size: 14px;
+    color: #000;
+}
+
+a {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+div,
+tr {
+    font-family: proxima_novaregular;
+}
+
+.compliance {
+    box-sizing: border-box;
+    width: auto;
+    overflow: hidden;
+    margin: 0 20px 0 270px;
+    font-family: "proxima_novaregular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000000;
+}
+
+.compliance *,
+.compliance *::before,
+.compliance *::after {
+    box-sizing: inherit;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.compliance *,
+.compliance *::before,
+.compliance *::after {
+    box-sizing: inherit;
+}
+
+input {
+    line-height: normal;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.compliance .compliance__information {
+    position: relative;
+}
+
+.compliance .information__section {
+    padding: 0 20px;
+}
+
+.compliance .section__field-group {
+    margin: 30px 30px 0 30px;
+}
+
+.compliance .field-group__label {
+    float: left;
+    width: 240px;
+    height: 40px;
+    font-size: 14px;
+    color: #7d8186;
+    cursor: pointer;
+}
+
+.compliance .field-group__label-inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    line-height: 20px;
+}
+
+.compliance .field-group__line {
+    margin-left: 240px;
+}
+
+.compliance .control--md {
+    width: 280px;
+}
+
+.compliance .control {
+    position: relative;
+    float: left;
+}
+
+.compliance .control__input,
+.compliance .control__select,
+.compliance .control__textarea {
+    width: 100%;
+    height: 40px;
+    padding: 8px 32px 8px 16px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #d8dade;
+    border-radius: 3px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+select,
+textarea {
+    background: #f7f7f8;
+    color: #495163;
+    border: 1px solid #e5e5e5;
+    height: 40px;
+    padding: 0 4px;
+    margin: 0;
+    font: normal 14px sans-serif;
+    border-radius: 2px;
+}
+
+.compliance .section__add {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.compliance a {
+    text-decoration: none;
+}
+
+.compliance .section__add--password::before {
+    content: "\e897";
+    margin-right: 10px;
+    vertical-align: middle;
+    font-family: "Material Icons";
+    font-size: 18px;
+    color: #d8dade;
+}
+
+.compliance .section__add {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 270px;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.compliance .information__footer {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-top: 50px;
+    border-top: 1px solid #d8dade;
+}
+
+.but_link.big,
+input.but.big {
+    color: #fff;
+    font: 700 14px proxima_novabold;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.but.cancel,
+.but.cancel:active,
+.but.cancel:hover,
+.but_link.cancel,
+.but_link.cancel:active,
+.but_link.cancel:hover {
+    background: #dedede;
+    color: #000;
+    border: 1px solid #bcbbbb;
+    text-shadow: 0 1px 1px #fff;
+    box-shadow: inset 0 1px 0 #fff, inset 0 -1px 0 #ededed;
+}
+
+.compliance .compliance-button--next {
+    float: right;
+    color: #000000;
+    background: #f5c343;
+    border-color: #f49d00;
+}
+
+.compliance .compliance-button {
+    display: block;
+    height: 48px;
+    padding: 12px 24px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-decoration: none;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+input.but {
+    text-align: center;
+    cursor: pointer;
+}
+ /* {
+    display: none;
+} */
