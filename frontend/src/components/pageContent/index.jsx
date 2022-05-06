@@ -9,7 +9,7 @@ import Insight from "../insights";
 import Fact from "../fact";
 import './pageContent.css'
 
-const PageContent = () => {
+const   PageContent = () => {
     return (
         <div className="page-content ">
             <div className="page-content page-content--index">

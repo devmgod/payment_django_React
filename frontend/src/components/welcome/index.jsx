@@ -12,8 +12,8 @@ const Welcome = () => {
                     <h1 className="welcome__title">Global Expansion <br />Made Easy</h1>
                     <p className="welcome__text">All-in-one payments platform for ambitious merchants taking over worldwide markets.</p>
                     <div className="buttons">
-                        <Link to="https://api.paymentwall.com/pwaccount" className="btn btn-primary">Create an Account</Link>
-                        <Link to="https://www.paymentwall.com/consultation" className="btn btn-secondary">Request a Consultation</Link>
+                        <Link to="/register" className="btn btn-primary">Create an Account</Link>
+                        <Link to="#" className="btn btn-secondary">Request a Consultation</Link>
                     </div>
                 </div>
             </section>
