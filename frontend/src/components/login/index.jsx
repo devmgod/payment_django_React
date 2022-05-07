@@ -55,6 +55,9 @@ const Login = (props) => {
             }
         } catch (err) {
             console.error(err.response.data);
+            setAlertContent('Server does not exist.');
+            setAlert(true);
+            // alert('Server does not exist!!!');
         }
     };
     return (
